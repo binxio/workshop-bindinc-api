@@ -1,0 +1,11 @@
+import requests
+import json
+
+url = 'https://gcp-bindincapi-h2ppf7r6xa-ue.a.run.app/similarity'
+data = {
+    "query": "Kids movies available on Disney+"
+}
+response = requests.post(url, json=data)
+print(f"Status Code: {response.status_code}")
+print(f"Response Body: {json.dumps(response.json(), indent=2)}")
+
