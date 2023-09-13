@@ -1,6 +1,0 @@
-Flask>=2.1.0
-langchain>=0.0.279
-gunicorn>=20.1.0
-vertexai>=0.0.1
-faiss-cpu>=1.7.4
-google-cloud-aiplatform>=1.31.1
