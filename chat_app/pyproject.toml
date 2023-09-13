@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bindinc-chat"
+version = "0.1.0"
+description = ""
+authors = ["Caio Benatti Moretti <caio.benatti@xebia.com>", "Dennis Vink <dennis.vink@xebia.com>"]
+readme = "README.md"
+packages = [{include = "bindinc_chat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.279"
+vertexai = "^0.0.1"
+faiss-cpu = "^1.7.4"
+google-cloud-aiplatform = "^1.31.1"
+streamlit = "^1.26.0"
+ipykernel = "^6.25.2"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
