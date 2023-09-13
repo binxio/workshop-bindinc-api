@@ -1,12 +1,8 @@
-import base64
 import json
-import os
-import uuid
-import subprocess
+from flask import Flask, render_template, send_from_directory, request, jsonify
 import vertexai
 from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings.vertexai import VertexAIEmbeddings
-from flask import Flask, render_template, send_from_directory, request, jsonify
 
 app = Flask(__name__)
 
