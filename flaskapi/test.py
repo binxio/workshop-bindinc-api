@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'https://gcp-bindincapi-h2ppf7r6xa-ue.a.run.app/similarity'
+url = 'https://flaskapi.com/similarity'
 data = {
     "query": "Kids movies available on Disney+"
 }
