@@ -1,8 +1,4 @@
-import base64
 import json
-import os
-import uuid
-import subprocess
 import vertexai
 from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings.vertexai import VertexAIEmbeddings
