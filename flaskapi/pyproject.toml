@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "flaskapi"
+version = "0.1.0"
+description = ""
+authors = ["Dennis Vink <dennisvink@binx.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.279"
+vertexai = "^0.0.1"
+faiss-cpu = "^1.7.4"
+google-cloud-aiplatform = "^1.31.1"
+streamlit = "^1.26.0"
+ipykernel = "^6.25.2"
+tqdm = "^4.66.1"
+flask = "^2.3.3"
+gunicorn = "^21.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
