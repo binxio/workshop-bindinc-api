@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'https://flaskapi.com/similarity'
+url = 'http://127.0.0.1:5000/similarity'
 data = {
     "query": "Kids movies available on Disney+"
 }
