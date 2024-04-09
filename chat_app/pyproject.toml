@@ -8,7 +8,7 @@ packages = [{include = "bindinc_chat"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-langchain = "^0.0.279"
+langchain = "^0.1.0"
 vertexai = "^0.0.1"
 faiss-cpu = "^1.7.4"
 google-cloud-aiplatform = "^1.31.1"
